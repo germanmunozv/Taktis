@@ -33,8 +33,8 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.07);}
 /* HERO */
 .hero{display:flex;align-items:center;padding:8rem 4rem 4rem;background:var(--bg);
   position:relative;overflow:hidden;}
-.hero-wm{position:absolute;right:-4%;top:50%;transform:translateY(-50%);
-  width:min(46vw,560px);opacity:.04;pointer-events:none;}
+.hero-wm{position:absolute;right:2.5rem;top:50%;transform:translateY(-50%);
+  width:min(38vw,470px);max-width:calc(50% - 2rem);opacity:.05;pointer-events:none;}
 .hero-inner{max-width:1100px;margin:0 auto;width:100%;position:relative;z-index:1;}
 .hero-kicker{display:flex;align-items:center;gap:.9rem;font-size:.7rem;letter-spacing:.2em;
   color:var(--blue);text-transform:uppercase;font-weight:500;margin-bottom:1.6rem;}
@@ -333,7 +333,7 @@ footer p{font-size:.66rem;letter-spacing:.08em;color:rgba(255,255,255,.4);font-w
         <div class="team-info">
           <div class="team-name">Felipe Gillet Infante</div>
           <div class="team-role">Socio &middot; RRHH &amp; Gestión del Desempeño</div>
-          <p class="team-bio">+15 años en posiciones directivas. Especialista en gestión del desempeño, transformación cultural, modelo HRBP y gestión de talento.</p>
+          <p class="team-bio">Psicólogo, Magíster en Psicología de las Organizaciones. +15 años en posiciones directivas. Especialista en gestión del desempeño, transformación cultural, modelo HRBP y gestión de talento.</p>
           <button class="btn-perfil" onclick="openPanel('panel-felipe')">Ver perfil <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></button>
         </div>
       </div>
@@ -369,7 +369,7 @@ footer p{font-size:.66rem;letter-spacing:.08em;color:rgba(255,255,255,.4);font-w
     <div class="axes-strip rv">
       <div class="axis-cell">
         <div class="axis-num">01</div>
-        <div class="axis-name">Organizacionales</div>
+        <div class="axis-name">Conceptos Organizacionales</div>
         <div class="axis-desc">Convergencia entre el concepto que la organización define y la percepción de su gente.</div>
       </div>
       <div class="axis-cell">
@@ -417,7 +417,8 @@ footer p{font-size:.66rem;letter-spacing:.08em;color:rgba(255,255,255,.4);font-w
             <circle cx="126" cy="175" r="5"/>
           </g>
           <g font-family="DM Sans, sans-serif" font-size="13" fill="#0f1923" font-weight="500" text-anchor="middle">
-            <text x="230" y="40">Organizacionales</text>
+            <text x="230" y="28">Conceptos</text>
+            <text x="230" y="44" font-weight="400" fill="#4a5568">Organizacionales</text>
             <text x="230" y="322">Procedimientos</text>
             <text x="230" y="338" font-weight="400" fill="#4a5568">y Pol&#237;ticas</text>
             <text x="362" y="179" text-anchor="start">Pr&#225;cticas</text>
